@@ -1,0 +1,19 @@
+{
+  "name": "pivotal-stories",
+  "version": "1.0.0",
+  "description": "Pivotal CLI tools",
+  "main": "./bin/index.js",
+  "bin": {
+    "pivotal-stories": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mark evans <mark@meltdownlabs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "columnify": "^1.5.4"
+  }
+}
